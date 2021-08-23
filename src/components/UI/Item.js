@@ -1,9 +1,5 @@
 function Item(props) {
-  return (
-    <div>
-      <div>{props.children}</div>
-    </div>
-  );
+  return <div className="px-10">{props.children}</div>;
 }
 
 export default Item;

@@ -1,5 +1,5 @@
 function Title(props) {
-  return <code>&lt;{props.children}&gt;</code>;
+  return <code className="block mb-5">&lt;Button{props.text} /&gt;</code>;
 }
 
 export default Title;
